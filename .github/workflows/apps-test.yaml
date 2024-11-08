@@ -16,7 +16,7 @@ jobs:
       - "instance-size:1GB"
 
     steps:
-      - uses: actions/create-github-app-token@v1
+      - uses: kaito-tokyo/create-github-app-token@main
         id: app-token
         with:
           app-id: ${{ secrets.APP_ID }}
