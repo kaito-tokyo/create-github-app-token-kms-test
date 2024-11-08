@@ -25,4 +25,4 @@ jobs:
       - uses: actions/checkout@v4
         with:
           token: ${{ steps.app-token.outputs.token }}
-          repository: kaito-tokyo/create-github-app-token
+          repository: kaito-tokyo/create-github-app-token-kms
